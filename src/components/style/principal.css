@@ -1,0 +1,49 @@
+.principal{
+    display: flex;
+    height: 100vh;
+    background-color: #100508
+}
+
+.principal h1{
+    margin: auto;
+    color: white;
+    font-family: 'Castoro' , serif;
+    font-size: 5rem;
+    letter-spacing: 4px;
+}
+
+.principal h2{
+    margin: auto;
+    color: rgb(180, 180, 180);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.nav{
+    padding-top: 2rem;
+    
+}
+
+.nav a,b{
+    text-decoration: none;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 100; 
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.nav a:hover{
+    color:rgb(180, 180, 180);;
+}
+
+.nav b{
+    color: #C50C0E;
+}
+
+.principal .centro{
+    margin: auto;
+}
