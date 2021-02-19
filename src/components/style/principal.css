@@ -10,6 +10,7 @@
     font-family: 'Castoro' , serif;
     font-size: 5rem;
     letter-spacing: 4px;
+    font-weight: 300;
 }
 
 .principal h2{
@@ -37,7 +38,7 @@
 }
 
 .nav a:hover{
-    color:rgb(180, 180, 180);;
+    color:#AC0B0F;
 }
 
 .nav b{

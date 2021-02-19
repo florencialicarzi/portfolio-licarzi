@@ -1,0 +1,65 @@
+.sm{
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+    margin: 0;
+    padding: 0;;
+    
+}
+
+.texto{
+    width: 60%;
+    background-color: #AC0B0F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto h2{
+    color: white;
+    font-family: 'Castoro' , serif;
+    font-size: 4rem;
+    letter-spacing: 4px;
+    text-align: left;
+    font-weight: 300;
+    width: 90%;
+    margin-left: 4rem;
+    
+}
+
+.skills{
+    width: 40%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.skills h2{
+    font-family: 'Public Sans', sans-serif;
+    color: #C50C0E;
+    font-size: 2rem;
+    letter-spacing: 8px;
+}
+
+.skills ol{
+    margin: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+.skills li{
+    font-family: 'Public Sans', sans-serif;
+    color: black;
+    font-size: 2rem;
+    list-style: none;
+    padding-top: 6px;
+
+}
+
+
+
