@@ -1,12 +1,12 @@
 import React from 'react';
 import './style/principal.css';
 
-function Principal() {
+function Principal({nombre,posicion}) {
   return (
         <div className="principal">
             <div className= "centro">
-                <h1>Florencia Licarzi</h1>
-                <h2>FrontEnd Developer </h2>
+                <h1>{nombre}</h1>
+                <h2>{posicion}</h2>
 
                 <div className="nav">
                     <a data-target="sobremi" title="Sobre mi" href="#">Sobre mi</a>

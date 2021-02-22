@@ -1,14 +1,12 @@
 import React from 'react';
 import './style/sobremi.css';
 
-function Sobremi(){
+function Sobremi({textoDescripcion}){
     return(
         <div className= 'sm'>
 
             <div className='texto'>
-                <h2>Soy una desarrolladora web apasionada 
-                por crear sitios funcionales y con un
-                diseño agradable para el usuario.</h2>
+                <p>{textoDescripcion}</p>
             </div>
 
             <div className='skills'>
@@ -20,7 +18,7 @@ function Sobremi(){
                     <li>Node.Js</li>
                 </ol>
 
-                <h2>OTRAS HABILIDADES</h2>
+                <h2>OTROS CONOCIMIENTOS</h2>
                 <ol>
                     <li>Git, GitHub</li>
                     <li>Photoshop, Illustrator</li>
