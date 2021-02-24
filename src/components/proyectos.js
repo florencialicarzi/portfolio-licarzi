@@ -6,8 +6,10 @@ function Proyectos(){
     return(
         <div className= 'proy'>
             <h1>Mis proyectos<b>.</b></h1>
-            <ListaSitios>
-            </ListaSitios>
+            <div className='lista-sitios'>
+                <ListaSitios>
+                </ListaSitios>
+            </div>
         </div>
     );
 }

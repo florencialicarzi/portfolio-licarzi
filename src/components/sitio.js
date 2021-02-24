@@ -1,14 +1,13 @@
 import React from 'react';
-import prueba from './../img/prueba.jpg';
 import './style/sitio.css'
 
-function Sitio(){
+function Sitio({fondo,titulo}){
     return(
         <div className= 'sit-obj'>
             <figure>
-                <img src= { prueba }/>
+                <img src={fondo}/>
                 <div className='capa'>
-                    <h2>Titulo del proyecto</h2>
+                    <h2>{titulo}</h2>
                     <button>Leer más</button>
                 </div>
             </figure>

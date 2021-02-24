@@ -21,7 +21,7 @@ function Sobremi({textoDescripcion}){
                 <h2>OTROS CONOCIMIENTOS</h2>
                 <ol>
                     <li>Git, GitHub</li>
-                    <li>Photoshop, Illustrator</li>
+                    <li>Illustrator, Photoshop</li>
                 </ol>
             </div>
             
